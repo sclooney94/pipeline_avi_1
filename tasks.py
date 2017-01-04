@@ -59,7 +59,7 @@ class AddNum(AviTask):
 
     def input(self):
         return AviLocalTarget(os.path.join(
-            '/user_space/avi1_avi1/data/output', self.inputFile
+            '/user_space/avi1_avi1/output', self.inputFile
         ))
 
     def run(self):
